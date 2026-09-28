@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ERIKAFFE — Kavárna Štětí | Káva s příběhem</title>
+  <meta name="description" content="ERIKAFFE — malá kavárna s velkým srdcem ve Štětí. Čerstvě pražená 100% arabica, snídaně od 7:00, domácí limonády, moučníky a catering. Obchodní 545, Štětí.">
+  <link rel="canonical" href="https://erikaffe.cz/">
+
+  <meta property="og:title" content="ERIKAFFE — Kavárna Štětí">
+  <meta property="og:description" content="Káva s příběhem. Snídaně, čerstvě pražená arabica, domácí limonády a catering ve Štětí.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://erikaffe.cz/">
+  <meta property="og:image" content="https://i.postimg.cc/02WTN8kV/IMG-2769.jpg">
+  <meta property="og:locale" content="cs_CZ">
+
+  <link rel="icon" href="https://i.postimg.cc/kMLCrJPx/Navrh-bez-nazvu-(1).png">
+  <link rel="apple-touch-icon" href="https://i.postimg.cc/kMLCrJPx/Navrh-bez-nazvu-(1).png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CafeOrCoffeeShop",
+    "name": "ERIKAFFE",
+    "description": "Malá kavárna s velkým srdcem ve Štětí. Čerstvě pražená 100% arabica, snídaně, domácí limonády a catering.",
+    "image": "https://i.postimg.cc/02WTN8kV/IMG-2769.jpg",
+    "logo": "https://i.postimg.cc/kMLCrJPx/Navrh-bez-nazvu-(1).png",
+    "url": "https://erikaffe.cz/",
+    "telephone": "+420603497100",
+    "email": "erikaffe.erikaffe@gmail.com",
+    "servesCuisine": "Káva, snídaně, moučníky",
+    "priceRange": "Kč",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Obchodní 545",
+      "addressLocality": "Štětí",
+      "postalCode": "411 08",
+      "addressCountry": "CZ"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "05:30",
+        "closes": "17:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "08:00",
+        "closes": "17:00"
+      }
+    ],
+    "sameAs": [
+      "https://www.instagram.com/eri_kaffe",
+      "https://www.facebook.com/share/1B31xy87et/"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Přeskočit na obsah</a>
+
+  <!-- Shared SVG symbols -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="bean" viewBox="0 0 24 32">
+      <path d="M12 2 Q18 8 18 16 Q18 24 12 30 Q6 24 6 16 Q6 8 12 2" fill="#8B6F4E"/>
+      <path d="M12 8 Q15 12 15 16 Q15 20 12 24 Q9 20 9 16 Q9 12 12 8" fill="#A0826D" opacity="0.6"/>
+    </symbol>
+  </svg>
+
+  <!-- NAVIGACE -->
+  <header class="nav" id="navbar">
+    <div class="nav__inner">
+      <a href="#hero" class="nav__brand" aria-label="ERIKAFFE — na začátek stránky">ERIKA<span>FFE</span></a>
+      <nav class="nav__links" aria-label="Hlavní navigace">
+        <a href="#about">O nás</a>
+        <a href="#gallery">Galerie</a>
+        <a href="#menu">Menu</a>
+        <a href="#catering">Catering</a>
+        <a href="#contact">Kontakt</a>
+      </nav>
+      <button class="nav__toggle" id="nav-toggle" aria-label="Otevřít menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="nav__mobile" id="mobile-menu" aria-label="Mobilní navigace">
+      <a href="#about">O nás</a>
+      <a href="#gallery">Galerie</a>
+      <a href="#menu">Menu</a>
+      <a href="#catering">Catering</a>
+      <a href="#contact">Kontakt</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero__bg" role="presentation"></div>
+      <div class="hero__content">
+        <svg class="hero__cup" width="80" height="80" viewBox="0 0 80 80" fill="none" aria-hidden="true">
+          <path class="steam" d="M32 28 Q34 18 30 10" stroke="#af9b61" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+          <path class="steam steam--2" d="M40 26 Q42 14 38 6" stroke="#af9b61" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+          <path class="steam steam--3" d="M48 28 Q50 18 46 10" stroke="#af9b61" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+          <ellipse cx="40" cy="38" rx="22" ry="6" fill="#af9b61" opacity="0.3"/>
+          <path d="M18 38 C18 38 20 68 40 68 C60 68 62 38 62 38" stroke="#fff" stroke-width="2.5" fill="none"/>
+          <path d="M62 42 C68 42 72 46 72 50 C72 54 68 58 62 58" stroke="#fff" stroke-width="2.5" fill="none"/>
+          <line x1="18" y1="38" x2="62" y2="38" stroke="#fff" stroke-width="2.5"/>
+          <ellipse cx="40" cy="74" rx="16" ry="3" fill="#fff" opacity="0.08"/>
+        </svg>
+        <h1 class="hero__title">ERIKA<span>FFE</span></h1>
+        <p class="hero__subtitle">Káva s příběhem</p>
+        <a href="#menu" class="btn">Prohlédnout menu</a>
+        <div class="hero__hours">
+          <p>Po–Pá 5:30–17:00</p>
+          <p>So 8:00–17:00</p>
+        </div>
+      </div>
+      <a href="#about" class="hero__scroll" aria-label="Posunout dolů">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+      </a>
+    </section>
+
+    <!-- O NÁS -->
+    <section class="section section--surface" id="about">
+      <div class="container grid-2">
+        <div class="reveal">
+          <p class="eyebrow">O Erikaffe</p>
+          <h2>Malá kavárna s velkým srdcem</h2>
+          <p class="lead">Vítejte v ERIKAFFE, klidné a příjemné místo ve Štětí. Jsme malá kavárna, která Vám nabízí více než jen skvělou kávu. Chceme být místem, kde se zastavíte na klidnou snídani, kde si vychutnáte chvíli pro sebe, a kde se cítíte jako doma.</p>
+          <p class="lead">Každý den s láskou připravujeme čerstvé nápoje a pokrmy z nejlepších surovin. Naše čerstvě pražená arabica káva Vás provede začátkem každého dne, ať už přijdete v jakýkoliv čas.</p>
+        </div>
+        <div class="reveal map-card">
+          <iframe
+            src="https://www.openstreetmap.org/export/embed.html?bbox=14.36921%2C50.45042%2C14.38321%2C50.45642&layer=mapnik&marker=50.45342%2C14.37621"
+            width="600" height="420" style="border:0" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Mapa — ERIKAFFE, Obchodní 545, Štětí"></iframe>
+          <a class="map-card__link" href="https://www.google.com/maps/search/?api=1&query=Obchodn%C3%AD+545+%C5%A0t%C4%9Bt%C3%AD" target="_blank" rel="noopener noreferrer">
+            Otevřít v Mapách Google →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALERIE -->
+    <section class="section section--surface" id="gallery">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Galerie</p>
+          <h2>Nahlédněte k nám</h2>
+          <p class="lead">Vítejte v našem klidném a přívětivém prostředí. ERIKAFFE je více než jen kavárna — je to místo, kde se cítíte jako doma.</p>
+        </div>
+        <div class="grid-2 grid-2--gallery">
+          <div class="gallery reveal">
+            <div class="gallery__frame">
+              <svg class="bean bean--1" aria-hidden="true"><use href="#bean"/></svg>
+              <svg class="bean bean--2" aria-hidden="true"><use href="#bean"/></svg>
+              <svg class="bean bean--3" aria-hidden="true"><use href="#bean"/></svg>
+              <svg class="bean bean--4" aria-hidden="true"><use href="#bean"/></svg>
+              <div class="gallery__viewport" id="gallery-viewport" tabindex="0" aria-roledescription="galerie" aria-label="Fotogalerie kavárny — šipkami vlevo a vpravo přepínáte fotografie">
+                <img id="gallery-image" src="https://i.postimg.cc/Px5GM1Mb/IMG-1270.jpg" alt="Interiér kavárny ERIKAFFE" loading="eager" decoding="async">
+              </div>
+            </div>
+            <div class="gallery__controls">
+              <button class="gallery__btn" id="gallery-prev" aria-label="Předchozí fotografie">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>
+              </button>
+              <p class="gallery__counter" aria-live="polite"><span id="gallery-current">1</span> / <span id="gallery-total">11</span></p>
+              <button class="gallery__btn" id="gallery-next" aria-label="Další fotografie">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+              </button>
+            </div>
+          </div>
+          <div class="stack">
+            <div class="card card--dark reveal">
+              <h3>Designové prvky</h3>
+              <p>Moderní místo se snoubí s příjemným venkovským stylem. Každý kout je prostoupený péčí a láskou k detailu.</p>
+            </div>
+            <div class="card card--dark reveal">
+              <h3>Kvalita služby</h3>
+              <p>Náš tým se stará o každého hosta. Vše pro Vás připravujeme s láskou.</p>
+            </div>
+            <div class="card card--dark reveal">
+              <h3>Ideální pro všechny</h3>
+              <p>Ať jste sami nebo se skupinou, ráno nebo odpoledne — v ERIKAFFE najdete tu správnou atmosféru.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NAŠE KÁVA -->
+    <section class="section section--surface" id="coffee">
+      <div class="container grid-2">
+        <div class="reveal">
+          <p class="eyebrow">Naše káva</p>
+          <h2>O kávě, kterou si u nás můžete vychutnat…</h2>
+          <p class="lead">Přijďte si vychutnat skvělou sladkou či slanou snídani s prvotřídní kávou, kterou Vám rádi připravíme i s sebou.</p>
+          <div class="card card--dark coffee-card">
+            <h3 class="coffee-card__name">MATTINO SOARE</h3>
+            <p class="coffee-card__tag">100% Arabica blend</p>
+            <p>Potěší všechny milovníky jemných oříškových tónů.</p>
+            <p>Káva Mattino Soare se připravuje výhradně z pečlivě vybraných a čerstvě pražených kávových zrn. Jedná se o ideální kávu pro pohodový začátek dne.</p>
+            <p>Hlavní tóny této kávy jsou pražené mandle a karamel. Díky nim má lehce nasládlý charakter.</p>
+          </div>
+        </div>
+        <div class="features reveal">
+          <div class="feature">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#af9b61" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>
+            <h3>100% Arabica</h3>
+            <p>Nejlepší kvalita zrn</p>
+          </div>
+          <div class="feature">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#af9b61" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
+            <h3>CZ Pražírna</h3>
+            <p>Lokálně pražená</p>
+          </div>
+          <div class="feature">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#af9b61" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+            <h3>S láskou</h3>
+            <p>Připraveno s péčí</p>
+          </div>
+          <div class="feature">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#af9b61" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/></svg>
+            <h3>Vždy čerstvá</h3>
+            <p>Čerstvě pražená</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENU -->
+    <section class="section section--light" id="menu">
+      <svg class="bean bean--menu-1" aria-hidden="true"><use href="#bean"/></svg>
+      <svg class="bean bean--menu-2" aria-hidden="true"><use href="#bean"/></svg>
+      <svg class="bean bean--menu-3" aria-hidden="true"><use href="#bean"/></svg>
+      <svg class="bean bean--menu-4" aria-hidden="true"><use href="#bean"/></svg>
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Menu</p>
+          <h2>Stálá nabídka</h2>
+        </div>
+
+        <nav class="menu-nav reveal" aria-label="Kategorie menu">
+          <a href="#menu-snidane">Snídaně</a>
+          <a href="#menu-kava">Káva</a>
+          <a href="#menu-pecivo">Pečivo &amp; moučníky</a>
+          <a href="#menu-nealko">Nealko</a>
+          <a href="#menu-alko">Alkohol</a>
+        </nav>
+
+        <div class="menu-group" id="menu-snidane">
+          <div class="menu-group__head reveal">
+            <h3>Snídaně</h3>
+            <p>Snídaně Vám rádi připravíme již od 7:00</p>
+          </div>
+          <div class="menu-grid menu-grid--2">
+            <article class="menu-card reveal">
+              <div class="menu-card__row"><h4>Anglická snídaně</h4><span class="price">139 Kč</span></div>
+              <p>2 sázená vejce, 2 klobásy, slanina, fazole v rajské omáčce, grilované žampiony s rajčátky, chléb, salát</p>
+            </article>
+            <article class="menu-card reveal">
+              <div class="menu-card__row"><h4>Avo chléb</h4><span class="price">129 Kč</span></div>
+              <p>Avokádo, sázené vejce, čerstvý sýr, granátové jablko, klíčky ředkvičky</p>
+            </article>
+            <article class="menu-card reveal">
+              <div class="menu-card__row"><h4>Míchaná vejce</h4><span class="price">110 Kč</span></div>
+              <p>3 vejce, slanina, chléb, salát</p>
+            </article>
+            <article class="menu-card reveal">
+              <div class="menu-card__row"><h4>Lívance</h4><span class="price">99 Kč</span></div>
+              <p>3 ks, ovocný přeliv, šlehačka</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="menu-group" id="menu-kava">
+          <div class="menu-group__head reveal">
+            <h3>Káva</h3>
+            <p>Čerstvě pražená 100% arabica MATTINO SOARE — rádi připravíme i s sebou</p>
+          </div>
+          <div class="menu-grid menu-grid--3">
+            <article class="menu-card reveal"><div class="menu-card__row"><h4>Espresso</h4><span class="price">55 Kč</span></div></article>
+            <article class="menu-card reveal"><div class="menu-card__row"><h4>Espresso Lungo</h4><span class="price">59 Kč</span></div></article>
+            <article class="menu-card reveal"><div class="menu-card__row"><h4>Espresso Macchiato</h4><span class="price">65 Kč</span></div></article>
+            <article class="menu-card reveal"><div class="menu-card__row"><h4>Espresso Americano</h4><span class="price">59 Kč</span></div></article>
+            <article class="menu-card reveal"><div class="menu-card__row"><h4>Cappuccino</h4><span class="price">65 Kč</span></div></article>
+            <article class="menu-card reveal"><div class="menu-card__row"><h4>Caffe latte</h4><span class="price">72 Kč</span></div></article>
+            <article class="menu-card reveal"><div class="menu-card__row"><h4>Flat white</h4><span class="price">79 Kč</span></div></article>
+            <article class="menu-card reveal"><div class="menu-card__row"><h4>Turecká káva</h4><span class="price">55 Kč</span></div></article>
+          </div>
+        </div>
+
+        <div class="menu-group" id="menu-pecivo">
+          <div class="menu-group__head reveal">
+            <h3>Obložené pečivo a moučníky</h3>
+            <p>Každý den pro Vás s láskou připravujeme čerstvé obložené pečivo a moučníky z kvalitních surovin.</p>
+          </div>
+          <div class="menu-grid menu-grid--2">
+            <article class="menu-card reveal">
+              <div class="menu-card__row"><h4>Obložená houska</h4><span class="price">od 39 Kč</span></div>
+              <p>Dle denní nabídky</p>
+            </article>
+            <article class="menu-card reveal">
+              <div class="menu-card__row"><h4>Moučník</h4><span class="price">od 49 Kč</span></div>
+              <p>Dle denní nabídky</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="menu-group" id="menu-nealko">
+          <div class="menu-group__head reveal">
+            <h3>Nealkoholické nápoje</h3>
+          </div>
+          <div class="menu-grid menu-grid--3">
+            <article class="menu-card reveal">
+              <div class="menu-card__row"><h4>Řemeslná limonáda</h4><span class="price">65 Kč</span></div>
+              <p>0,33 l — rebarbora, okurka, mandarinka, citron, cola, malina</p>
+            </article>
+            <article class="menu-card reveal">
+              <div class="menu-card__row"><h4>Domácí limonáda</h4><span class="price">69 Kč</span></div>
+              <p>0,5 l — dle denní nabídky</p>
+            </article>
+            <article class="menu-card reveal">
+              <div class="menu-card__row"><h4>Ovocný džus (Curiosa)</h4><span class="price">55 Kč</span></div>
+              <p>0,25 l — pomeranč, jahoda, jablko, multivitamín</p>
+            </article>
+            <article class="menu-card reveal">
+              <div class="menu-card__row"><h4>Matcha</h4><span class="price">70 Kč</span></div>
+              <p>0,33 l — grep, ananas, limeta</p>
+            </article>
+            <article class="menu-card reveal">
+              <div class="menu-card__row"><h4>Rajec voda</h4><span class="price">35 Kč</span></div>
+              <p>0,33 l — neperlivá, jemně perlivá</p>
+            </article>
+            <article class="menu-card reveal">
+              <div class="menu-card__row"><h4>Royal Crown Cola</h4><span class="price">55 Kč</span></div>
+              <p>0,25 l</p>
+            </article>
+            <article class="menu-card reveal">
+              <div class="menu-card__row"><h4>Birell</h4><span class="price">35 Kč</span></div>
+              <p>0,33 l — polotmavý</p>
+            </article>
+            <article class="menu-card reveal">
+              <div class="menu-card__row"><h4>Čaj Teahouse</h4><span class="price">55 Kč</span></div>
+              <p>Černý, zelený, letní ovoce, heřmánek, máta, orientální jablko</p>
+            </article>
+            <article class="menu-card reveal">
+              <div class="menu-card__row"><h4>Čaj YUZU</h4><span class="price">65 Kč</span></div>
+              <p>Yuzu, maracuja</p>
+            </article>
+            <article class="menu-card reveal">
+              <div class="menu-card__row"><h4>Horká čokoláda</h4><span class="price">69 Kč</span></div>
+              <p>Classic, mléčná, oříšek, bílá</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="menu-group" id="menu-alko">
+          <div class="menu-group__head reveal">
+            <h3>Alkoholické nápoje</h3>
+          </div>
+          <div class="menu-grid menu-grid--3">
+            <article class="menu-card reveal">
+              <div class="menu-card__row"><h4>Pilsner Urquell</h4><span class="price">45 Kč</span></div>
+              <p>0,33 l</p>
+            </article>
+            <article class="menu-card reveal">
+              <div class="menu-card__row"><h4>Prosecco</h4><span class="price">45 / 290 Kč</span></div>
+              <p>2 dcl / 0,7 l</p>
+            </article>
+            <article class="menu-card reveal">
+              <div class="menu-card__row"><h4>Chardonnay</h4><span class="price">33 / 220 Kč</span></div>
+              <p>1 dcl / 0,7 l | polosuché | jakostní víno 2022</p>
+            </article>
+            <article class="menu-card reveal">
+              <div class="menu-card__row"><h4>Sauvignon</h4><span class="price">42 / 260 Kč</span></div>
+              <p>1 dcl / 0,7 l | suché | jakostní víno 2024</p>
+            </article>
+            <article class="menu-card reveal">
+              <div class="menu-card__row"><h4>Zweigeltrebe</h4><span class="price">42 / 260 Kč</span></div>
+              <p>1 dcl / 0,7 l | sladké | moravské zemské víno 2021</p>
+            </article>
+            <article class="menu-card reveal">
+              <div class="menu-card__row"><h4>Pálava</h4><span class="price">44 / 280 Kč</span></div>
+              <p>1 dcl / 0,7 l | polosladké | výběr z hroznů 2021</p>
+            </article>
+            <article class="menu-card reveal">
+              <div class="menu-card__row"><h4>Rulandské modré</h4><span class="price">44 / 280 Kč</span></div>
+              <p>1 dcl / 0,7 l | sladké | moravské zemské víno 2020</p>
+            </article>
+            <article class="menu-card reveal">
+              <div class="menu-card__row"><h4>Hibernal</h4><span class="price">55 / 360 Kč</span></div>
+              <p>1 dcl / 0,7 l | sladké | výběr z bobulí 2021</p>
+            </article>
+            <article class="menu-card reveal">
+              <div class="menu-card__row"><h4>Cabernet Sauvignon</h4><span class="price">55 / 360 Kč</span></div>
+              <p>1 dcl / 0,7 l | suché | výběr z hroznů 2023</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CATERING -->
+    <section class="section" id="catering">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Speciální služby</p>
+          <h2>Catering pro vaše akce</h2>
+          <p class="lead">Rádi pro Vás sestavíme kompletní catering na oslavu, svatbu či firemní setkání dle Vašich představ. S dobrotami od nás bude vaše akce nezapomenutelná.</p>
+        </div>
+        <div class="catering-grid reveal">
+          <div class="card card--surface">
+            <p class="catering-num">01</p>
+            <h3>Kanapky</h3>
+            <p>Připravované vždy dle Vašich přání</p>
+          </div>
+          <div class="card card--surface">
+            <p class="catering-num">02</p>
+            <h3>Obložené pečivo</h3>
+            <p>Čerstvě připravované z kvalitních surovin</p>
+          </div>
+          <div class="card card--surface">
+            <p class="catering-num">03</p>
+            <h3>Chlebíčky</h3>
+            <p>Z domácí veky s pestrými kombinacemi</p>
+          </div>
+          <div class="card card--surface">
+            <p class="catering-num">04</p>
+            <h3>Moučníky</h3>
+            <p>Nebo zdravější verze mlsání</p>
+          </div>
+        </div>
+        <div class="catering-cta reveal">
+          <p>Zajímá Vás catering? Kontaktujte nás!</p>
+          <a href="#contact" class="btn">Napište nám</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- KONTAKT -->
+    <section class="section section--surface" id="contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Kontakt</p>
+          <h2>Stavte se k nám</h2>
+        </div>
+        <div class="contact-grid reveal">
+          <div class="card card--dark contact-card">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#af9b61" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
+            <h3>Adresa</h3>
+            <p><a href="https://www.google.com/maps/search/?api=1&query=Obchodn%C3%AD+545+%C5%A0t%C4%9Bt%C3%AD" target="_blank" rel="noopener noreferrer">Obchodní 545,<br>411 08 Štětí</a></p>
+          </div>
+          <div class="card card--dark contact-card">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#af9b61" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg>
+            <h3>Kontakt</h3>
+            <p>
+              <a href="tel:+420603497100">+420 603 497 100</a><br>
+              <a href="mailto:erikaffe.erikaffe@gmail.com">erikaffe.erikaffe@gmail.com</a>
+            </p>
+          </div>
+          <div class="card card--dark contact-card">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#af9b61" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <h3>Otevírací doba</h3>
+            <p>Po–Pá 5:30–17:00<br>So 8:00–17:00<br>Ne zavřeno</p>
+          </div>
+          <div class="card card--dark contact-card">
+            <div class="contact-card__social">
+              <a href="https://www.instagram.com/eri_kaffe?igsh=MXBuMHM2ZGVmcWhvOA==" target="_blank" rel="noopener noreferrer" aria-label="Instagram — eri_kaffe">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#af9b61" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+              </a>
+              <a href="https://www.facebook.com/share/1B31xy87et/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Facebook — ERIKAFFE">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#af9b61" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+              </a>
+            </div>
+            <h3>Sociální sítě</h3>
+            <p>
+              <a href="https://www.instagram.com/eri_kaffe?igsh=MXBuMHM2ZGVmcWhvOA==" target="_blank" rel="noopener noreferrer">@eri_kaffe</a>
+              &nbsp;|&nbsp;
+              <a href="https://www.facebook.com/share/1B31xy87et/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">ERIKAFFE</a>
+            </p>
+            <img class="contact-card__stamp" src="https://i.postimg.cc/kMLCrJPx/Navrh-bez-nazvu-(1).png" alt="" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- PATIČKA -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__brand">ERIKA<span>FFE</span></p>
+      <p>Obchodní 545, 411 08 Štětí &nbsp;·&nbsp; <a href="tel:+420603497100">+420 603 497 100</a></p>
+      <p class="footer__copy">© <span id="year">2026</span> ERIKAFFE — Všechna práva vyhrazena</p>
+    </div>
+  </footer>
+
+  <button class="to-top" id="to-top" aria-label="Zpět nahoru">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m18 15-6-6-6 6"/></svg>
+  </button>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
